@@ -145,7 +145,8 @@ main {
   box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
 }
 .player--winner {
-  background-color: #2f2f2f;
+  /* background-color: #2f2f2f; */
+  background-color: #67b26f;
 }
 .player--winner .name {
   font-weight: 700;
@@ -153,4 +154,10 @@ main {
 }
 .hidden {
   display: none;
+}
+
+.disable {
+  background-color: grey;
+  color: white;
+  cursor: not-allowed;
 }
