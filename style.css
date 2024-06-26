@@ -55,7 +55,7 @@ main {
   color: #c7365f;
   margin-bottom: auto;
 }
-/* .player--active {
+.player--active {
   background-color: rgba(255, 255, 255, 0.4);
 }
 .player--active .name {
@@ -67,7 +67,7 @@ main {
 
 .player--active .current {
   opacity: 1;
-} */
+}
 .current {
   background-color: #c7365f;
   opacity: 0.8;
@@ -152,5 +152,5 @@ main {
   color: #c7365f;
 }
 .hidden {
-  display: block;
+  display: none;
 }
